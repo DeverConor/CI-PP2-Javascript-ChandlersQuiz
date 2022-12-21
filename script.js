@@ -3,7 +3,7 @@
 let timeSecond = 360;
 const timeH = document.querySelector("#countdown");
 addEventListener.call
-console.log(timeH)
+console.log.addEventListener("#button)(timeH)
 displayTime(timeSecond);
 
 const countDown = setInterval(() => {
@@ -27,13 +27,27 @@ function endCount() {
   timeH.innerHTML = "Times up! No Turkey for you!";
 }
 
-let btn = document.getElementById("button")
+// let btn = document.getElementById("button")
 // let output = document.getElementById("state-list") 
+function myFunction() {
 
-btn.addEventListener('#button', function(){
+  // Create an "li" node:
+  const node = document.createElement("li");
+  
+  // Create a text node:
+  const textnode = document.createTextNode(input);
+  
+  // Append the text node to the "li" node:
+  node.appendChild(textnode);
+  
+  // Append the "li" node to the list:
+  document.getElementById("state-list").appendChild(node);
+  }
+
+// btn.addEventListener('#button', function(){
     let input = document.getElementById("answer-field").Value;
-    let output = document.getElementById("#state-list")
-    if  (input == "alabama" ||
+    // let output = document.getElementById("#state-list")
+    if  ([input == "alabama" ||
         input == "alaska" ||
         input == "arizona"|| 
         input == "arkansas"|| 
@@ -82,14 +96,13 @@ btn.addEventListener('#button', function(){
         input == "washington" ||
         input == "west virginia"|| 
         input == "wisconsin"|| 
-        input == "wyoming"||) {
-          output = document.getElementByID = ("#state-list")
-          console.log("<li>[input]</li>)
-        }
-          // output.innerHTML = "<li>" + input + "</li>"
-        // }
+        input == "wyoming"||]) 
+
+
+          // 
+        // console.log("<li>[input]</li>)}
       
-//       }
+// 
 //     output.getElementById("scorebox")=+1}
 //     else (input =!
 //       Alabama,
@@ -141,5 +154,4 @@ btn.addEventListener('#button', function(){
 //         Washington,
 //         West Virginia,
 //         Wisconsin,
-//         Wyoming)
-//')'
+//         Wyoming)}

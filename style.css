@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Oswald:wght@300&family=Roboto:wght@100;300&display=swap');
 
 #countdown {
+
     margin-left: 40%;
     margin-right:40%;
-    margin-top: 0%;
-    margin-bottom: 15px;
     padding: 30px;
-    box-sizing: border-box;
-    height: 20vh;
     width: 20%;
     display: flex;
     font-family: 'Orbitron', sans-serif;
@@ -16,30 +13,47 @@
     color: red;
     align-content: center;
     justify-content: center;
+    /* (margin-left: 40%; */ */
+    /* margin-right:40%; */
+    /* margin-top: 0%; */
+    /* margin-bottom: 15px; */
+    /* padding: 30px; */
+    /* box-sizing: border-box; */
+    /* height: 20vh; */
+    /* width: 20%; */
+    /* display: flex; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-size: xxx-large; */
+    /* background-color: black; */
+    /* color: red; */
+    /* align-content: center; */
+    /* justify-content: center;) */
 }
 
 h1 {
-    width: 100%;
-    display: flex;
-    font-family: 'Oswald', sans-serif;
-    background-color: white;
-    color: black;
-    align-content: center;
-    justify-content: center;
+        width: 100%; */
+        font-size: x-large; */
+        display: flex; */
+        font-family: 'Oswald', sans-serif; */
+        background-color: white; */
+        color: black; */
+        align-content: center; */
+        justify-content: center; */
 }
 
 #chandler-image {
     max-width: fit-content;
-    margin-left: 30%;
+    margin-left: 5%;
     padding: 0px;
     display: flex, ;
+    scale: 70%;
     align-content: center;
     justify-content: center;
 }
 
 #answer-field {
     margin: 15px;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right:40%;
     display: flex;
     font-family: 'Oswald', sans-serif;
